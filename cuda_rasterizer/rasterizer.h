@@ -51,6 +51,7 @@ namespace CudaRasterizer
 			float* out_color,
 			float* out_others,
 			int* radii = nullptr,
+			bool* seen = nullptr,
 			bool debug = false);
 
 		static void backward(
