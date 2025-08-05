@@ -1,6 +1,12 @@
-# Differential Surfel Rasterization
+# 2DGSx-DSR
 
-This is the rasterization engine for the paper "2D Gaussian Splatting for  Geometrically Accurate Radiance Fields". If you can make use of it in your own research, please be so kind to cite us.
+2DGSx-DSR is an extended version of [diff-surfel-rasterization](https://github.com/hbb1/diff-surfel-rasterization), 
+rasterization engine for the paper "2D Gaussian Splatting for Geometrically Accurate Radiance Fields" with the following improvments:
+1. Implementation from [Object-centric 2DGS paper](https://github.com/MarcelRogge/object-centric-2dgs) to have better segmentation of objects and reduced gaussian size.
+
+---
+
+The followings are BibTeX for the upstream authors:
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
